@@ -11,7 +11,7 @@ typedef struct lista {
 
 /**
  * Função de inicialização.
- * @param Lista* l, referência para lista.
+ * @param Lista** l, referência para lista.
  * @return void.
 */
 void inicializa (Lista** l){ (*l) = NULL; }
